@@ -1,0 +1,36 @@
+0.What is pneumonoultramicroscopicsilicovolcanoconiosis?
+Ans:
+An invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+
+1.According to its man page, what does getrusage do?
+Ans:
+Get resource usage
+
+2.Per that same man page, how many members are in a variable of type struct rusage?
+Ans:
+16
+
+3.Why do you think we pass before and after by reference (instead of by value) to calculate,
+  even though we’re not changing their contents?
+Ans:
+We are going to delete memory allocation.
+
+4.Explain as precisely as possible, in a paragraph or more, how main goes about reading words from a file.
+  In other words, convince us that you indeed understand how that function’s for loop works.
+Ans:
+It uses fgetc to read through every single character in the words.
+When the cursor reaches the end of the words, the number of length of the words is smaller than the number of the highest index.
+In such a situation, the index returns to zero and then prepare a new word in the loop.
+All these work until EOF.
+
+5.Why do you think we used fgetc to read each word’s characters one at a time
+  rather than use fscanf with a format string like "%s" to read whole words at a time?
+  Put another way, what problems might arise by relying on fscanf alone?
+Ans:
+We must allocate memory in order to use fscanf, but using fgetc does not require to do so.
+It makes it easier to get the job done because we have fewer things to worry about, like free the memory etc.
+
+6.Why do you think we declared the parameters for check and load as const (which means "constant")?
+Ans:
+They are not to be changed in the program.
+Declaring them as constant is a way to ensure they are not changed.
