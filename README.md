@@ -1,15 +1,10 @@
 # Introduction-to-Computer-Science-CS50-Coursework
 
 Language:
-C
-Python
-Javascript
-SQL
-HTML/CSS
+C, Python, SQL, Javascript, HTML, CSS
 
 APIs:
-Twitter
-Google
+Twitter, Google
 
 Main tasks:
 1. Sentiment analysis of tweets in a twitter account -- analysis of the general sentiment of tweets of twitter account
@@ -18,4 +13,4 @@ Main tasks:
 4. Searching news on google map website (Google APIs) -- a website that allows user to search for articles on Google Map
 
 
-All problem sets description can be found from http://cs50.tv/2016/fall/#license,psets
+The description of all problem sets, including the "main tasks", can be found from http://cs50.tv/2016/fall/#license,psets
